@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A36C5EBA1CAE442E000A08F5 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C5EB91CAE442E000A08F5 /* HomeHeaderView.swift */; };
+		A8A125B6CEC3085920664BB3 /* Pods_ManHuaRe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0895DBB1B292772CFA61EC6 /* Pods_ManHuaRe.framework */; };
+		E93B6AF61CBE139200C55AD8 /* ChapterListmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6AF51CBE139200C55AD8 /* ChapterListmodel.swift */; };
+		E93B6AF81CBE1E0F00C55AD8 /* ChapterContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6AF71CBE1E0F00C55AD8 /* ChapterContentModel.swift */; };
+		E93B6AFB1CBF5FAF00C55AD8 /* ManHuaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6AFA1CBF5FAF00C55AD8 /* ManHuaListViewController.swift */; };
+		E93B6AFE1CBF611600C55AD8 /* ManHuaListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6AFD1CBF611600C55AD8 /* ManHuaListTableViewCell.swift */; };
+		E93B6B011CBFCB0B00C55AD8 /* ManHuaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B001CBFCB0B00C55AD8 /* ManHuaDetailViewController.swift */; };
+		E93B6B041CC087E600C55AD8 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B031CC087E600C55AD8 /* DetailHeaderView.swift */; };
+		E93B6B071CCC6A9400C55AD8 /* ChapterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B061CCC6A9400C55AD8 /* ChapterCollectionViewCell.swift */; };
+		E93B6B0A1CCC85E600C55AD8 /* ReviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B091CCC85E600C55AD8 /* ReviewCollectionViewController.swift */; };
+		E93B6B0D1CCC8E9100C55AD8 /* ManHuaImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B0C1CCC8E9100C55AD8 /* ManHuaImageCollectionViewCell.swift */; };
+		E93B6B191CCDA3E500C55AD8 /* FlowingMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B111CCDA3E500C55AD8 /* FlowingMenuDelegate.swift */; };
+		E93B6B1A1CCDA3E500C55AD8 /* FlowingMenuTransitionManager+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B121CCDA3E500C55AD8 /* FlowingMenuTransitionManager+Delegate.swift */; };
+		E93B6B1B1CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B131CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIGestureRecognizer.swift */; };
+		E93B6B1C1CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIViewControllerAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B141CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIViewControllerAnimatedTransitioning.swift */; };
+		E93B6B1D1CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B151CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIViewControllerTransitioningDelegate.swift */; };
+		E93B6B1E1CCDA3E500C55AD8 /* FlowingMenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B161CCDA3E500C55AD8 /* FlowingMenuTransitionManager.swift */; };
+		E93B6B1F1CCDA3E500C55AD8 /* FlowingMenuTransitionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B171CCDA3E500C55AD8 /* FlowingMenuTransitionStatus.swift */; };
+		E93B6B201CCDA3E500C55AD8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B181CCDA3E500C55AD8 /* UIView.swift */; };
+		E93B6B231CCDAAA800C55AD8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B221CCDAAA800C55AD8 /* MenuViewController.swift */; };
+		E93B6B261CCDED1700C55AD8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B251CCDED1700C55AD8 /* SearchViewController.swift */; };
+		E93B6B2A1CCDED5C00C55AD8 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B281CCDED5C00C55AD8 /* CategoryCollectionViewCell.swift */; };
+		E93B6B2B1CCDED5C00C55AD8 /* HistoryRecordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B291CCDED5C00C55AD8 /* HistoryRecordCollectionViewCell.swift */; };
+		E93B6B2D1CCDEDD800C55AD8 /* RecordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B2C1CCDEDD800C55AD8 /* RecordData.swift */; };
+		E93B6B301CCDEE1700C55AD8 /* HistoryRecordHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B2F1CCDEE1700C55AD8 /* HistoryRecordHeaderCollectionReusableView.swift */; };
+		E93B6B481CCDF41C00C55AD8 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B331CCDF41C00C55AD8 /* IQNSArray+Sort.swift */; };
+		E93B6B491CCDF41C00C55AD8 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B341CCDF41C00C55AD8 /* IQUIScrollView+Additions.swift */; };
+		E93B6B4A1CCDF41C00C55AD8 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B351CCDF41C00C55AD8 /* IQUITextFieldView+Additions.swift */; };
+		E93B6B4B1CCDF41C00C55AD8 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B361CCDF41C00C55AD8 /* IQUIView+Hierarchy.swift */; };
+		E93B6B4C1CCDF41C00C55AD8 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B371CCDF41C00C55AD8 /* IQUIViewController+Additions.swift */; };
+		E93B6B4D1CCDF41C00C55AD8 /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B381CCDF41C00C55AD8 /* IQUIWindow+Hierarchy.swift */; };
+		E93B6B4E1CCDF41C00C55AD8 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B3A1CCDF41C00C55AD8 /* IQKeyboardManagerConstants.swift */; };
+		E93B6B4F1CCDF41C00C55AD8 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B3B1CCDF41C00C55AD8 /* IQKeyboardManagerConstantsInternal.swift */; };
+		E93B6B501CCDF41C00C55AD8 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B3C1CCDF41C00C55AD8 /* IQKeyboardManager.swift */; };
+		E93B6B511CCDF41C00C55AD8 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B3D1CCDF41C00C55AD8 /* IQKeyboardReturnKeyHandler.swift */; };
+		E93B6B521CCDF41C00C55AD8 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B3F1CCDF41C00C55AD8 /* IQTextView.swift */; };
+		E93B6B531CCDF41C00C55AD8 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B411CCDF41C00C55AD8 /* IQBarButtonItem.swift */; };
+		E93B6B541CCDF41C00C55AD8 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B421CCDF41C00C55AD8 /* IQPreviousNextView.swift */; };
+		E93B6B551CCDF41C00C55AD8 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B431CCDF41C00C55AD8 /* IQTitleBarButtonItem.swift */; };
+		E93B6B561CCDF41C00C55AD8 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B441CCDF41C00C55AD8 /* IQToolbar.swift */; };
+		E93B6B571CCDF41C00C55AD8 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B451CCDF41C00C55AD8 /* IQUIView+IQKeyboardToolbar.swift */; };
+		E93B6B581CCDF41C00C55AD8 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E93B6B471CCDF41C00C55AD8 /* IQKeyboardManager.bundle */; };
+		E93B6B5B1CCF356400C55AD8 /* CollectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B5A1CCF356400C55AD8 /* CollectViewController.swift */; };
+		E93B6B5E1CCF3FE000C55AD8 /* CollectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B5D1CCF3FE000C55AD8 /* CollectCollectionViewCell.swift */; };
+		E93B6B611CCF4B9B00C55AD8 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B601CCF4B9B00C55AD8 /* HistoryViewController.swift */; };
+		E93B6B641CCF4E4E00C55AD8 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B631CCF4E4E00C55AD8 /* HistoryTableViewCell.swift */; };
+		E93B6B661CDC2C2000C55AD8 /* BannerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B6B651CDC2C2000C55AD8 /* BannerHeaderView.swift */; };
+		E96E3DA61CE6BB8C006C3058 /* SettingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96E3DA51CE6BB8C006C3058 /* SettingUpViewController.swift */; };
+		E96E3DA91CE70160006C3058 /* AboutUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96E3DA81CE70160006C3058 /* AboutUSViewController.swift */; };
+		E98C246A1CB5FD4300A9FBE6 /* ClassSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C24691CB5FD4300A9FBE6 /* ClassSearchModel.swift */; };
+		E98C246E1CBD1E4100A9FBE6 /* BookListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C246D1CBD1E4100A9FBE6 /* BookListModel.swift */; };
+		EE5498E11CAA3F4800D7FD9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5498E01CAA3F4800D7FD9F /* AppDelegate.swift */; };
+		EE5498E61CAA3F4900D7FD9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5498E41CAA3F4900D7FD9F /* Main.storyboard */; };
+		EE5498E81CAA3F4900D7FD9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5498E71CAA3F4900D7FD9F /* Assets.xcassets */; };
+		EE5498EB1CAA3F4900D7FD9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5498E91CAA3F4900D7FD9F /* LaunchScreen.storyboard */; };
+		EEB0B1511CAB913C00B7EE35 /* ManHuaReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB0B1501CAB913C00B7EE35 /* ManHuaReponse.swift */; };
+		EEB0B1541CAB961300B7EE35 /* Request+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB0B1531CAB961300B7EE35 /* Request+Extension.swift */; };
+		EED5EEBF1CAA4B4500EF04CE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5EEBE1CAA4B4500EF04CE /* BaseViewController.swift */; };
+		EED5EEC11CAA4B5B00EF04CE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5EEC01CAA4B5B00EF04CE /* HomeViewController.swift */; };
+		EED5EEC61CAA68A300EF04CE /* ManHuaRe+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5EEC51CAA68A300EF04CE /* ManHuaRe+Config.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0895DBB1B292772CFA61EC6 /* Pods_ManHuaRe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManHuaRe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36C5EB91CAE442E000A08F5 /* HomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		A88C5BE26DE08BB7056B128E /* Pods-ManHuaRe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManHuaRe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManHuaRe/Pods-ManHuaRe.debug.xcconfig"; sourceTree = "<group>"; };
+		B9DF333B17E4C5B4B69466CD /* Pods-ManHuaRe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManHuaRe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManHuaRe/Pods-ManHuaRe.release.xcconfig"; sourceTree = "<group>"; };
+		E93B6AF51CBE139200C55AD8 /* ChapterListmodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChapterListmodel.swift; path = Model/ChapterListmodel.swift; sourceTree = "<group>"; };
+		E93B6AF71CBE1E0F00C55AD8 /* ChapterContentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChapterContentModel.swift; path = Model/ChapterContentModel.swift; sourceTree = "<group>"; };
+		E93B6AFA1CBF5FAF00C55AD8 /* ManHuaListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManHuaListViewController.swift; path = Controller/ManHuaListViewController.swift; sourceTree = "<group>"; };
+		E93B6AFD1CBF611600C55AD8 /* ManHuaListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManHuaListTableViewCell.swift; path = Cell/ManHuaListTableViewCell.swift; sourceTree = "<group>"; };
+		E93B6B001CBFCB0B00C55AD8 /* ManHuaDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManHuaDetailViewController.swift; path = Controller/ManHuaDetailViewController.swift; sourceTree = "<group>"; };
+		E93B6B031CC087E600C55AD8 /* DetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailHeaderView.swift; path = View/DetailHeaderView.swift; sourceTree = "<group>"; };
+		E93B6B061CCC6A9400C55AD8 /* ChapterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChapterCollectionViewCell.swift; path = Cell/ChapterCollectionViewCell.swift; sourceTree = "<group>"; };
+		E93B6B091CCC85E600C55AD8 /* ReviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviewCollectionViewController.swift; path = Controller/ReviewCollectionViewController.swift; sourceTree = "<group>"; };
+		E93B6B0C1CCC8E9100C55AD8 /* ManHuaImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManHuaImageCollectionViewCell.swift; path = Cell/ManHuaImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		E93B6B111CCDA3E500C55AD8 /* FlowingMenuDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowingMenuDelegate.swift; sourceTree = "<group>"; };
+		E93B6B121CCDA3E500C55AD8 /* FlowingMenuTransitionManager+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlowingMenuTransitionManager+Delegate.swift"; sourceTree = "<group>"; };
+		E93B6B131CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlowingMenuTransitionManager+UIGestureRecognizer.swift"; sourceTree = "<group>"; };
+		E93B6B141CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIViewControllerAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlowingMenuTransitionManager+UIViewControllerAnimatedTransitioning.swift"; sourceTree = "<group>"; };
+		E93B6B151CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlowingMenuTransitionManager+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		E93B6B161CCDA3E500C55AD8 /* FlowingMenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowingMenuTransitionManager.swift; sourceTree = "<group>"; };
+		E93B6B171CCDA3E500C55AD8 /* FlowingMenuTransitionStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowingMenuTransitionStatus.swift; sourceTree = "<group>"; };
+		E93B6B181CCDA3E500C55AD8 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		E93B6B221CCDAAA800C55AD8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = Controller/MenuViewController.swift; sourceTree = "<group>"; };
+		E93B6B251CCDED1700C55AD8 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = Controller/SearchViewController.swift; sourceTree = "<group>"; };
+		E93B6B281CCDED5C00C55AD8 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryCollectionViewCell.swift; path = Cell/CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E93B6B291CCDED5C00C55AD8 /* HistoryRecordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryRecordCollectionViewCell.swift; path = Cell/HistoryRecordCollectionViewCell.swift; sourceTree = "<group>"; };
+		E93B6B2C1CCDEDD800C55AD8 /* RecordData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordData.swift; path = Common/RecordData.swift; sourceTree = "<group>"; };
+		E93B6B2F1CCDEE1700C55AD8 /* HistoryRecordHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryRecordHeaderCollectionReusableView.swift; path = View/HistoryRecordHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		E93B6B331CCDF41C00C55AD8 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		E93B6B341CCDF41C00C55AD8 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		E93B6B351CCDF41C00C55AD8 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		E93B6B361CCDF41C00C55AD8 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		E93B6B371CCDF41C00C55AD8 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		E93B6B381CCDF41C00C55AD8 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		E93B6B3A1CCDF41C00C55AD8 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		E93B6B3B1CCDF41C00C55AD8 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		E93B6B3C1CCDF41C00C55AD8 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		E93B6B3D1CCDF41C00C55AD8 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		E93B6B3F1CCDF41C00C55AD8 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		E93B6B411CCDF41C00C55AD8 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		E93B6B421CCDF41C00C55AD8 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		E93B6B431CCDF41C00C55AD8 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		E93B6B441CCDF41C00C55AD8 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		E93B6B451CCDF41C00C55AD8 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		E93B6B471CCDF41C00C55AD8 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		E93B6B5A1CCF356400C55AD8 /* CollectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectViewController.swift; path = Controller/CollectViewController.swift; sourceTree = "<group>"; };
+		E93B6B5D1CCF3FE000C55AD8 /* CollectCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectCollectionViewCell.swift; path = Cell/CollectCollectionViewCell.swift; sourceTree = "<group>"; };
+		E93B6B601CCF4B9B00C55AD8 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryViewController.swift; path = Controller/HistoryViewController.swift; sourceTree = "<group>"; };
+		E93B6B631CCF4E4E00C55AD8 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryTableViewCell.swift; path = Cell/HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		E93B6B651CDC2C2000C55AD8 /* BannerHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BannerHeaderView.swift; path = View/BannerHeaderView.swift; sourceTree = "<group>"; };
+		E96E3DA51CE6BB8C006C3058 /* SettingUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingUpViewController.swift; path = Controller/SettingUpViewController.swift; sourceTree = "<group>"; };
+		E96E3DA81CE70160006C3058 /* AboutUSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutUSViewController.swift; path = Controller/AboutUSViewController.swift; sourceTree = "<group>"; };
+		E98C24691CB5FD4300A9FBE6 /* ClassSearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassSearchModel.swift; path = Model/ClassSearchModel.swift; sourceTree = "<group>"; };
+		E98C246D1CBD1E4100A9FBE6 /* BookListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookListModel.swift; path = Model/BookListModel.swift; sourceTree = "<group>"; };
+		EE5498DD1CAA3F4800D7FD9F /* ManHuaRe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManHuaRe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5498E01CAA3F4800D7FD9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE5498E51CAA3F4900D7FD9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE5498E71CAA3F4900D7FD9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE5498EA1CAA3F4900D7FD9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE5498EC1CAA3F4900D7FD9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB0B1501CAB913C00B7EE35 /* ManHuaReponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManHuaReponse.swift; path = Common/ManHuaReponse.swift; sourceTree = "<group>"; };
+		EEB0B1531CAB961300B7EE35 /* Request+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Request+Extension.swift"; path = "Extension/Request+Extension.swift"; sourceTree = "<group>"; };
+		EED5EEBE1CAA4B4500EF04CE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Base/BaseViewController.swift; sourceTree = "<group>"; };
+		EED5EEC01CAA4B5B00EF04CE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controller/HomeViewController.swift; sourceTree = "<group>"; };
+		EED5EEC51CAA68A300EF04CE /* ManHuaRe+Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ManHuaRe+Config.swift"; path = "Common/ManHuaRe+Config.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE5498DA1CAA3F4800D7FD9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A125B6CEC3085920664BB3 /* Pods_ManHuaRe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9B1B1A75C247C2C12626F5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0895DBB1B292772CFA61EC6 /* Pods_ManHuaRe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4D362E4845741C29A3F9C2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A88C5BE26DE08BB7056B128E /* Pods-ManHuaRe.debug.xcconfig */,
+				B9DF333B17E4C5B4B69466CD /* Pods-ManHuaRe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E93B6AF91CBF5F6400C55AD8 /* 漫画列表 */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6AFC1CBF60F600C55AD8 /* Cell */,
+				E93B6AFA1CBF5FAF00C55AD8 /* ManHuaListViewController.swift */,
+			);
+			name = "漫画列表";
+			sourceTree = "<group>";
+		};
+		E93B6AFC1CBF60F600C55AD8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6AFD1CBF611600C55AD8 /* ManHuaListTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		E93B6AFF1CBFCAA700C55AD8 /* 漫画详情 */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B051CCC6A6B00C55AD8 /* Cell */,
+				E93B6B021CC087C100C55AD8 /* View */,
+				E93B6B001CBFCB0B00C55AD8 /* ManHuaDetailViewController.swift */,
+			);
+			name = "漫画详情";
+			sourceTree = "<group>";
+		};
+		E93B6B021CC087C100C55AD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B031CC087E600C55AD8 /* DetailHeaderView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E93B6B051CCC6A6B00C55AD8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B061CCC6A9400C55AD8 /* ChapterCollectionViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		E93B6B081CCC858D00C55AD8 /* 阅读漫画页 */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B0B1CCC8E4400C55AD8 /* Cell */,
+				E93B6B091CCC85E600C55AD8 /* ReviewCollectionViewController.swift */,
+			);
+			name = "阅读漫画页";
+			sourceTree = "<group>";
+		};
+		E93B6B0B1CCC8E4400C55AD8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B0C1CCC8E9100C55AD8 /* ManHuaImageCollectionViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		E93B6B0E1CCDA3E500C55AD8 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B311CCDF41C00C55AD8 /* IQKeyboardManagerSwift */,
+				E93B6B0F1CCDA3E500C55AD8 /* FlowingMenu */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		E93B6B0F1CCDA3E500C55AD8 /* FlowingMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B101CCDA3E500C55AD8 /* Sources */,
+			);
+			path = FlowingMenu;
+			sourceTree = "<group>";
+		};
+		E93B6B101CCDA3E500C55AD8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B111CCDA3E500C55AD8 /* FlowingMenuDelegate.swift */,
+				E93B6B121CCDA3E500C55AD8 /* FlowingMenuTransitionManager+Delegate.swift */,
+				E93B6B131CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIGestureRecognizer.swift */,
+				E93B6B141CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIViewControllerAnimatedTransitioning.swift */,
+				E93B6B151CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIViewControllerTransitioningDelegate.swift */,
+				E93B6B161CCDA3E500C55AD8 /* FlowingMenuTransitionManager.swift */,
+				E93B6B171CCDA3E500C55AD8 /* FlowingMenuTransitionStatus.swift */,
+				E93B6B181CCDA3E500C55AD8 /* UIView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E93B6B211CCDAA8200C55AD8 /* 侧边栏 */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B221CCDAAA800C55AD8 /* MenuViewController.swift */,
+			);
+			name = "侧边栏";
+			sourceTree = "<group>";
+		};
+		E93B6B241CCDED0400C55AD8 /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B2E1CCDEE0500C55AD8 /* View */,
+				E93B6B271CCDED2E00C55AD8 /* Cell */,
+				E93B6B251CCDED1700C55AD8 /* SearchViewController.swift */,
+			);
+			name = "搜索";
+			sourceTree = "<group>";
+		};
+		E93B6B271CCDED2E00C55AD8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B281CCDED5C00C55AD8 /* CategoryCollectionViewCell.swift */,
+				E93B6B291CCDED5C00C55AD8 /* HistoryRecordCollectionViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		E93B6B2E1CCDEE0500C55AD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B2F1CCDEE1700C55AD8 /* HistoryRecordHeaderCollectionReusableView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E93B6B311CCDF41C00C55AD8 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B321CCDF41C00C55AD8 /* Categories */,
+				E93B6B391CCDF41C00C55AD8 /* Constants */,
+				E93B6B3C1CCDF41C00C55AD8 /* IQKeyboardManager.swift */,
+				E93B6B3D1CCDF41C00C55AD8 /* IQKeyboardReturnKeyHandler.swift */,
+				E93B6B3E1CCDF41C00C55AD8 /* IQTextView */,
+				E93B6B401CCDF41C00C55AD8 /* IQToolbar */,
+				E93B6B461CCDF41C00C55AD8 /* Resources */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		E93B6B321CCDF41C00C55AD8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B331CCDF41C00C55AD8 /* IQNSArray+Sort.swift */,
+				E93B6B341CCDF41C00C55AD8 /* IQUIScrollView+Additions.swift */,
+				E93B6B351CCDF41C00C55AD8 /* IQUITextFieldView+Additions.swift */,
+				E93B6B361CCDF41C00C55AD8 /* IQUIView+Hierarchy.swift */,
+				E93B6B371CCDF41C00C55AD8 /* IQUIViewController+Additions.swift */,
+				E93B6B381CCDF41C00C55AD8 /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E93B6B391CCDF41C00C55AD8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B3A1CCDF41C00C55AD8 /* IQKeyboardManagerConstants.swift */,
+				E93B6B3B1CCDF41C00C55AD8 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E93B6B3E1CCDF41C00C55AD8 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B3F1CCDF41C00C55AD8 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		E93B6B401CCDF41C00C55AD8 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B411CCDF41C00C55AD8 /* IQBarButtonItem.swift */,
+				E93B6B421CCDF41C00C55AD8 /* IQPreviousNextView.swift */,
+				E93B6B431CCDF41C00C55AD8 /* IQTitleBarButtonItem.swift */,
+				E93B6B441CCDF41C00C55AD8 /* IQToolbar.swift */,
+				E93B6B451CCDF41C00C55AD8 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		E93B6B461CCDF41C00C55AD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B471CCDF41C00C55AD8 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E93B6B591CCF351E00C55AD8 /* 收藏夹 */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B5C1CCF3F9700C55AD8 /* Cell */,
+				E93B6B5A1CCF356400C55AD8 /* CollectViewController.swift */,
+			);
+			name = "收藏夹";
+			sourceTree = "<group>";
+		};
+		E93B6B5C1CCF3F9700C55AD8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B5D1CCF3FE000C55AD8 /* CollectCollectionViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		E93B6B5F1CCF4B8000C55AD8 /* 历史记录 */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B621CCF4E3B00C55AD8 /* Cell */,
+				E93B6B601CCF4B9B00C55AD8 /* HistoryViewController.swift */,
+			);
+			name = "历史记录";
+			sourceTree = "<group>";
+		};
+		E93B6B621CCF4E3B00C55AD8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B631CCF4E4E00C55AD8 /* HistoryTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		E96E3DA41CE6BB4A006C3058 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				E96E3DA51CE6BB8C006C3058 /* SettingUpViewController.swift */,
+				E96E3DA71CE7013E006C3058 /* 关于我们 */,
+			);
+			name = "设置";
+			sourceTree = "<group>";
+		};
+		E96E3DA71CE7013E006C3058 /* 关于我们 */ = {
+			isa = PBXGroup;
+			children = (
+				E96E3DA81CE70160006C3058 /* AboutUSViewController.swift */,
+			);
+			name = "关于我们";
+			sourceTree = "<group>";
+		};
+		E98EFB3B1CAF6B9600E5163A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		EE5498D41CAA3F4800D7FD9F = {
+			isa = PBXGroup;
+			children = (
+				EE5498DF1CAA3F4800D7FD9F /* ManHuaRe */,
+				EE5498F51CAA439400D7FD9F /* Supporting Files */,
+				EE5498DE1CAA3F4800D7FD9F /* Products */,
+				D4D362E4845741C29A3F9C2D /* Pods */,
+				B9B1B1A75C247C2C12626F5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE5498DE1CAA3F4800D7FD9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE5498DD1CAA3F4800D7FD9F /* ManHuaRe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE5498DF1CAA3F4800D7FD9F /* ManHuaRe */ = {
+			isa = PBXGroup;
+			children = (
+				EE5498F21CAA433600D7FD9F /* Common */,
+				EEB0B14D1CAB7CFA00B7EE35 /* Model */,
+				EEB0B1521CAB95E700B7EE35 /* Extension */,
+				E93B6B0E1CCDA3E500C55AD8 /* Vendor */,
+				EE5498F41CAA434900D7FD9F /* Controller */,
+			);
+			path = ManHuaRe;
+			sourceTree = "<group>";
+		};
+		EE5498F21CAA433600D7FD9F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B2C1CCDEDD800C55AD8 /* RecordData.swift */,
+				EED5EEC51CAA68A300EF04CE /* ManHuaRe+Config.swift */,
+				EEB0B1501CAB913C00B7EE35 /* ManHuaReponse.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		EE5498F31CAA434100D7FD9F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EED5EEBE1CAA4B4500EF04CE /* BaseViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EE5498F41CAA434900D7FD9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E96E3DA41CE6BB4A006C3058 /* 设置 */,
+				E93B6B5F1CCF4B8000C55AD8 /* 历史记录 */,
+				E93B6B591CCF351E00C55AD8 /* 收藏夹 */,
+				E93B6B241CCDED0400C55AD8 /* 搜索 */,
+				EE5498F31CAA434100D7FD9F /* Base */,
+				EE5498F81CAA43F900D7FD9F /* 首页 */,
+				E93B6AF91CBF5F6400C55AD8 /* 漫画列表 */,
+				E93B6AFF1CBFCAA700C55AD8 /* 漫画详情 */,
+				E93B6B081CCC858D00C55AD8 /* 阅读漫画页 */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EE5498F51CAA439400D7FD9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE5498E01CAA3F4800D7FD9F /* AppDelegate.swift */,
+				EE5498E41CAA3F4900D7FD9F /* Main.storyboard */,
+				EE5498E71CAA3F4900D7FD9F /* Assets.xcassets */,
+				EE5498E91CAA3F4900D7FD9F /* LaunchScreen.storyboard */,
+				EE5498EC1CAA3F4900D7FD9F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = ManHuaRe;
+			sourceTree = "<group>";
+		};
+		EE5498F81CAA43F900D7FD9F /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B211CCDAA8200C55AD8 /* 侧边栏 */,
+				E98EFB3B1CAF6B9600E5163A /* Cell */,
+				EED5EEC21CAA4FBD00EF04CE /* View */,
+				EED5EEC01CAA4B5B00EF04CE /* HomeViewController.swift */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		EEB0B14D1CAB7CFA00B7EE35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E98C24691CB5FD4300A9FBE6 /* ClassSearchModel.swift */,
+				E98C246D1CBD1E4100A9FBE6 /* BookListModel.swift */,
+				E93B6AF51CBE139200C55AD8 /* ChapterListmodel.swift */,
+				E93B6AF71CBE1E0F00C55AD8 /* ChapterContentModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EEB0B1521CAB95E700B7EE35 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EEB0B1531CAB961300B7EE35 /* Request+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		EED5EEC21CAA4FBD00EF04CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E93B6B651CDC2C2000C55AD8 /* BannerHeaderView.swift */,
+				A36C5EB91CAE442E000A08F5 /* HomeHeaderView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE5498DC1CAA3F4800D7FD9F /* ManHuaRe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5498EF1CAA3F4900D7FD9F /* Build configuration list for PBXNativeTarget "ManHuaRe" */;
+			buildPhases = (
+				9E5102654C89DB59522A48B2 /* Check Pods Manifest.lock */,
+				EE5498D91CAA3F4800D7FD9F /* Sources */,
+				EE5498DA1CAA3F4800D7FD9F /* Frameworks */,
+				EE5498DB1CAA3F4800D7FD9F /* Resources */,
+				26E3FC8951549CB34CC0FB85 /* Embed Pods Frameworks */,
+				D6D9E1CAE46A3F17B8F5365B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManHuaRe;
+			productName = ManHuaRe;
+			productReference = EE5498DD1CAA3F4800D7FD9F /* ManHuaRe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE5498D51CAA3F4800D7FD9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "孙宇";
+				TargetAttributes = {
+					EE5498DC1CAA3F4800D7FD9F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = V3U3ZAM6PV;
+					};
+				};
+			};
+			buildConfigurationList = EE5498D81CAA3F4800D7FD9F /* Build configuration list for PBXProject "ManHuaRe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE5498D41CAA3F4800D7FD9F;
+			productRefGroup = EE5498DE1CAA3F4800D7FD9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE5498DC1CAA3F4800D7FD9F /* ManHuaRe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE5498DB1CAA3F4800D7FD9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5498EB1CAA3F4900D7FD9F /* LaunchScreen.storyboard in Resources */,
+				EE5498E81CAA3F4900D7FD9F /* Assets.xcassets in Resources */,
+				E93B6B581CCDF41C00C55AD8 /* IQKeyboardManager.bundle in Resources */,
+				EE5498E61CAA3F4900D7FD9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26E3FC8951549CB34CC0FB85 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ManHuaRe/Pods-ManHuaRe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5102654C89DB59522A48B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D9E1CAE46A3F17B8F5365B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ManHuaRe/Pods-ManHuaRe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE5498D91CAA3F4800D7FD9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93B6B201CCDA3E500C55AD8 /* UIView.swift in Sources */,
+				E93B6B5B1CCF356400C55AD8 /* CollectViewController.swift in Sources */,
+				E93B6B641CCF4E4E00C55AD8 /* HistoryTableViewCell.swift in Sources */,
+				E93B6B2D1CCDEDD800C55AD8 /* RecordData.swift in Sources */,
+				E93B6B531CCDF41C00C55AD8 /* IQBarButtonItem.swift in Sources */,
+				E93B6B511CCDF41C00C55AD8 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				EE5498E11CAA3F4800D7FD9F /* AppDelegate.swift in Sources */,
+				E93B6B2B1CCDED5C00C55AD8 /* HistoryRecordCollectionViewCell.swift in Sources */,
+				E96E3DA91CE70160006C3058 /* AboutUSViewController.swift in Sources */,
+				E93B6B4B1CCDF41C00C55AD8 /* IQUIView+Hierarchy.swift in Sources */,
+				E93B6B041CC087E600C55AD8 /* DetailHeaderView.swift in Sources */,
+				E96E3DA61CE6BB8C006C3058 /* SettingUpViewController.swift in Sources */,
+				E93B6B4A1CCDF41C00C55AD8 /* IQUITextFieldView+Additions.swift in Sources */,
+				E93B6B481CCDF41C00C55AD8 /* IQNSArray+Sort.swift in Sources */,
+				E93B6B4C1CCDF41C00C55AD8 /* IQUIViewController+Additions.swift in Sources */,
+				E93B6B1C1CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIViewControllerAnimatedTransitioning.swift in Sources */,
+				E93B6AF61CBE139200C55AD8 /* ChapterListmodel.swift in Sources */,
+				E93B6B2A1CCDED5C00C55AD8 /* CategoryCollectionViewCell.swift in Sources */,
+				E93B6B611CCF4B9B00C55AD8 /* HistoryViewController.swift in Sources */,
+				EED5EEC61CAA68A300EF04CE /* ManHuaRe+Config.swift in Sources */,
+				E93B6B1F1CCDA3E500C55AD8 /* FlowingMenuTransitionStatus.swift in Sources */,
+				E93B6B0D1CCC8E9100C55AD8 /* ManHuaImageCollectionViewCell.swift in Sources */,
+				E93B6B4D1CCDF41C00C55AD8 /* IQUIWindow+Hierarchy.swift in Sources */,
+				E93B6B1E1CCDA3E500C55AD8 /* FlowingMenuTransitionManager.swift in Sources */,
+				E93B6B0A1CCC85E600C55AD8 /* ReviewCollectionViewController.swift in Sources */,
+				E93B6AFE1CBF611600C55AD8 /* ManHuaListTableViewCell.swift in Sources */,
+				E93B6B521CCDF41C00C55AD8 /* IQTextView.swift in Sources */,
+				E93B6B1D1CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIViewControllerTransitioningDelegate.swift in Sources */,
+				E98C246A1CB5FD4300A9FBE6 /* ClassSearchModel.swift in Sources */,
+				A36C5EBA1CAE442E000A08F5 /* HomeHeaderView.swift in Sources */,
+				E93B6B1A1CCDA3E500C55AD8 /* FlowingMenuTransitionManager+Delegate.swift in Sources */,
+				E93B6B191CCDA3E500C55AD8 /* FlowingMenuDelegate.swift in Sources */,
+				E93B6B501CCDF41C00C55AD8 /* IQKeyboardManager.swift in Sources */,
+				EEB0B1541CAB961300B7EE35 /* Request+Extension.swift in Sources */,
+				E93B6B071CCC6A9400C55AD8 /* ChapterCollectionViewCell.swift in Sources */,
+				E93B6B571CCDF41C00C55AD8 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				E93B6AFB1CBF5FAF00C55AD8 /* ManHuaListViewController.swift in Sources */,
+				E93B6AF81CBE1E0F00C55AD8 /* ChapterContentModel.swift in Sources */,
+				E93B6B4E1CCDF41C00C55AD8 /* IQKeyboardManagerConstants.swift in Sources */,
+				E93B6B551CCDF41C00C55AD8 /* IQTitleBarButtonItem.swift in Sources */,
+				E93B6B661CDC2C2000C55AD8 /* BannerHeaderView.swift in Sources */,
+				EED5EEBF1CAA4B4500EF04CE /* BaseViewController.swift in Sources */,
+				E93B6B491CCDF41C00C55AD8 /* IQUIScrollView+Additions.swift in Sources */,
+				E93B6B561CCDF41C00C55AD8 /* IQToolbar.swift in Sources */,
+				E93B6B5E1CCF3FE000C55AD8 /* CollectCollectionViewCell.swift in Sources */,
+				EEB0B1511CAB913C00B7EE35 /* ManHuaReponse.swift in Sources */,
+				E93B6B261CCDED1700C55AD8 /* SearchViewController.swift in Sources */,
+				E93B6B231CCDAAA800C55AD8 /* MenuViewController.swift in Sources */,
+				EED5EEC11CAA4B5B00EF04CE /* HomeViewController.swift in Sources */,
+				E93B6B4F1CCDF41C00C55AD8 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				E93B6B011CBFCB0B00C55AD8 /* ManHuaDetailViewController.swift in Sources */,
+				E93B6B541CCDF41C00C55AD8 /* IQPreviousNextView.swift in Sources */,
+				E93B6B1B1CCDA3E500C55AD8 /* FlowingMenuTransitionManager+UIGestureRecognizer.swift in Sources */,
+				E93B6B301CCDEE1700C55AD8 /* HistoryRecordHeaderCollectionReusableView.swift in Sources */,
+				E98C246E1CBD1E4100A9FBE6 /* BookListModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE5498E41CAA3F4900D7FD9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE5498E51CAA3F4900D7FD9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE5498E91CAA3F4900D7FD9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE5498EA1CAA3F4900D7FD9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE5498ED1CAA3F4900D7FD9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE5498EE1CAA3F4900D7FD9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE5498F01CAA3F4900D7FD9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88C5BE26DE08BB7056B128E /* Pods-ManHuaRe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ManHuaRe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyu.ManHuaRe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EE5498F11CAA3F4900D7FD9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DF333B17E4C5B4B69466CD /* Pods-ManHuaRe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ManHuaRe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyu.ManHuaRe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE5498D81CAA3F4800D7FD9F /* Build configuration list for PBXProject "ManHuaRe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5498ED1CAA3F4900D7FD9F /* Debug */,
+				EE5498EE1CAA3F4900D7FD9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5498EF1CAA3F4900D7FD9F /* Build configuration list for PBXNativeTarget "ManHuaRe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5498F01CAA3F4900D7FD9F /* Debug */,
+				EE5498F11CAA3F4900D7FD9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE5498D51CAA3F4800D7FD9F /* Project object */;
+}
